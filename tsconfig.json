@@ -1,4 +1,12 @@
 {
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./app/frontend/*"
+      ]
+    }
+  },
   "files": [],
   "references": [
     {
