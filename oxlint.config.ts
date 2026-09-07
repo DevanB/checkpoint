@@ -9,7 +9,21 @@ const jsPlugins = selectJsPlugins(["react-doctor", "sonarjs", "github"]);
 
 export default defineConfig({
   extends: [core, vitest, react, antiSlop, jsPlugins],
-  ignorePatterns: core.ignorePatterns,
-  jsPlugins: jsPlugins.jsPlugins,
+  ignorePatterns: [
+    ...(core.ignorePatterns ?? []),
+    "app/frontend/components/ui",
+  ],
+  jsPlugins: [...(jsPlugins.jsPlugins ?? []), "oxlint-plugin-complexity"],
+  overrides: [
+    {
+      files: ["app/frontend/**"],
+      rules: {
+        "import/no-relative-parent-imports": "error",
+      },
+    },
+  ],
+  rules: {
+    "complexity/complexity": ["error", { cognitive: 15 }],
+  },
   settings: jsPluginSettings,
 });
