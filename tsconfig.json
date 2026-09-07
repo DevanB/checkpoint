@@ -5,7 +5,8 @@
       "@/*": [
         "./app/frontend/*"
       ]
-    }
+    },
+    "strictNullChecks": true
   },
   "files": [],
   "references": [
