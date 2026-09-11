@@ -73,6 +73,18 @@
       "skillPath": "skills/engineering/prototype/SKILL.md",
       "computedHash": "d3fc74689bd993e39c44bfae510d014eecffbeec2922764b065377fd1327c0f6"
     },
+    "react-compiler": {
+      "source": "saschb2b/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/react-compiler/SKILL.md",
+      "computedHash": "ac3bc029a0fe6eda35e0c9ec2064517ad335f1b402eb1a85801a9f7dae039dfd"
+    },
+    "react-stinky": {
+      "source": "saschb2b/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/react-stinky/SKILL.md",
+      "computedHash": "3b61ed38ffc4406fe163802b057b32892bd4472605495ca44bd30856d595e625"
+    },
     "research": {
       "source": "mattpocock/skills",
       "sourceType": "github",
@@ -102,6 +114,12 @@
       "sourceType": "github",
       "skillPath": "skills/productivity/teach/SKILL.md",
       "computedHash": "b8a69574c7a019bed84e84313dc8bf02e1d1bf925ba43057d433217c63863206"
+    },
+    "theme-colors": {
+      "source": "saschb2b/skills",
+      "sourceType": "github",
+      "skillPath": "skills/engineering/theme-colors/SKILL.md",
+      "computedHash": "ef8277b78a5acd04bcdb4bf6c3f55c3cefbc6951864a41f54011b522dc804ca3"
     },
     "to-questionnaire": {
       "source": "mattpocock/skills",
