@@ -11,6 +11,8 @@ export default defineConfig({
   extends: [core, vitest, react, antiSlop, jsPlugins],
   ignorePatterns: [
     ...(core.ignorePatterns ?? []),
+    ".agents/**",
+    "AGENTS.md",
     "app/frontend/components/ui",
   ],
   jsPlugins: [...(jsPlugins.jsPlugins ?? []), "oxlint-plugin-complexity"],

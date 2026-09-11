@@ -5,6 +5,8 @@ export default defineConfig({
   ...ultracite,
   ignorePatterns: [
     ...(ultracite.ignorePatterns ?? []),
+    ".agents/**",
+    "AGENTS.md",
     "app/frontend/components/ui/**",
   ],
 });
