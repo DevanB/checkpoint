@@ -151,6 +151,12 @@
       "skillPath": "skills/engineering/setup-matt-pocock-skills/SKILL.md",
       "computedHash": "552b0f48b9fe054aa93c5d432fefbd7bd9645e3f2d20b4e22432453a81800b21"
     },
+    "shadcn-inertia": {
+      "source": "inertia-rails/skills",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn-inertia/SKILL.md",
+      "computedHash": "2d65fa701ea12573aea5f45d77f513691d790958073e45cec55b0df20a261666"
+    },
     "tdd": {
       "source": "mattpocock/skills",
       "sourceType": "github",
