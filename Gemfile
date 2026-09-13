@@ -39,6 +39,8 @@ gem "inertia_rails", "~> 3.22"
 gem "vite_rails", "~> 3.11"
 
 gem "typelizer"
+gem "alba"
+gem "alba-inertia"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
