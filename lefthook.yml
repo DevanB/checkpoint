@@ -1,6 +1,15 @@
 pre-commit:
-  jobs:
-    - run: pnpm dlx ultracite fix
+  parallel: true
+  commands:
+    rubocop:
+      run: bundle exec rubocop --parallel {staged_files}
+      glob: "*.rb"
+    brakeman:
+      run: bundle exec brakeman --no-pager --quiet
+    bundle-audit:
+      run: bundle exec bundler-audit check --update
+    ultracite:
+      run: pnpm dlx ultracite fix
       glob:
         - "**/*.js"
         - "**/*.jsx"
@@ -10,3 +19,8 @@ pre-commit:
         - "**/*.jsonc"
         - "**/*.css"
       stage_fixed: true
+
+pre-push:
+  commands:
+    tests:
+      run: bundle exec rspec
