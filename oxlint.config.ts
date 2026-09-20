@@ -15,6 +15,8 @@ export default defineConfig({
     ".agents/**",
     "AGENTS.md",
     "app/frontend/components/ui",
+    "app/frontend/routes",
+    "app/frontend/types",
   ],
   jsPlugins: [...(jsPlugins.jsPlugins ?? []), "oxlint-plugin-complexity"],
   overrides: [

@@ -7,6 +7,8 @@ export default defineConfig({
     ...(ultracite.ignorePatterns ?? []),
     ".agents/**",
     "AGENTS.md",
-    "app/frontend/components/ui/**",
+    "app/frontend/components/ui",
+    "app/frontend/routes",
+    "app/frontend/types",
   ],
 });
