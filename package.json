@@ -37,7 +37,7 @@
     "oxlint-plugin-complexity": "^2.1.8",
     "oxlint-plugin-react-doctor": "^0.9.13",
     "typescript": "^7.0.2",
-    "ultracite": "7.11.0",
+    "ultracite": "7.12.0",
     "vite": "^8.2.2",
     "vite-plugin-ruby": "^5.2.3"
   }
