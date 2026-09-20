@@ -1,3 +1,5 @@
+export * from "./serializers";
+
 export interface FlashData {
   notice?: string;
   alert?: string;
