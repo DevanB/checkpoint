@@ -12,10 +12,9 @@ void createInertiaApp({
     },
     visitOptions: () => ({ queryStringArrayFormat: "brackets" }),
   },
-
   pages: "../pages",
-
   strictMode: true,
+  title: (title) => `${title} :: Checkpoint`,
 }).catch((error) => {
   // This ensures this entrypoint is only loaded on Inertia pages
   // by checking for the presence of the root element (#app by default).
